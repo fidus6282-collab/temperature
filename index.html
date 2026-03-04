@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="animation-layer"></div>
+
+    <div class="container">
+        <div class="weather-card">
+            <h1 class="app-title">Weather App</h1>
+            
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Enter city name...">
+                <button class="search-btn" id="searchBtn">Find</button>
+            </div>
+
+            <p class="city-name" id="cityName">Tashkent, Uzbekistan</p>
+
+            <div class="weather-icon">☀️</div>
+
+            <p class="temperature" id="temperature">4.7°C</p>
+
+            <p class="weather-desc" id="weatherDesc">Patchy Rain Nearby</p>
+
+            <div class="weather-details">
+                <div class="detail">
+                    <span class="detail-label">Humidity</span>
+                    <span class="detail-value" id="humidity">65%</span>
+                </div>
+                <div class="detail">
+                    <span class="detail-label">Wind Speed</span>
+                    <span class="detail-value" id="windSpeed">10 km/h</span>
+                </div>
+                <div class="detail">
+                    <span class="detail-label">Pressure</span>
+                    <span class="detail-value" id="pressure">1013 mb</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
